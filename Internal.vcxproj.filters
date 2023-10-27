@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="gameobject.cpp" />
+    <ClCompile Include="Pattern.cpp" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Imgui stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Imgui stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>Imgui stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="classes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="chams.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy_importer.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="scanner.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Imgui stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Imgui stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>Imgui stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Imgui stuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_spoofer_stub.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{991e135f-2dbc-4fdd-b3eb-c2c714238aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui stuff">
+      <UniqueIdentifier>{2be34a76-b098-40c4-99fa-bc21ffe57552}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
